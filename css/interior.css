@@ -141,6 +141,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c93f8c', end
 #page.interior_yellow .volunteer_row {background:#FFCE08;}
 #page.interior_pink .volunteer_row {background:#e12a91;}
 
+#page.interior_green #tendra {margin:0 0 70px 22px;}
+
 .content_holder h1 {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; padding: 0 0 16px 11px; font-size: 20px; line-height: 30px; text-align: left; color: #356CFD; letter-spacing: 0.05em;}
 .content_holder h2 {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; padding: 4px 0 24px 0; font-size: 25px; line-height: 30px; text-align: left; color: #356CFD;}
 
@@ -158,6 +160,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c93f8c', end
 .content_holder .volunteer_right h2 {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 20px; letter-spacing: 0.04em; line-height: 23px; text-align: left; color: #fff;}
 .content_holder .volunteer_right h2 span {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; display: block;}
 .content_holder .volunteer_right h3 {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 40px; line-height: 50px; text-align: left; color: #fff;}
+.content_holder .volunteer_right h3 br {display:none;}
 
 .volunteer_left {position:relative;}
 .volunteer_left a {display:block; max-width:450px; width:100%;}
@@ -236,9 +239,9 @@ ul.global_list li:last-of-type {padding: 0;}
     margin-left: -.5em;
 }
 #walks_callout p:after {
-    content: '\201C';
+    content: '\201D';
     position: absolute;
-    margin-left: .2em;
+    margin-left:0;
 }
 #walks_callout #walks_callout_read {color: #356CFD; font-family: AvenirNextLTPro-Regular, sans-serif; font-size: 15px; line-height: 21px;}
 
@@ -310,7 +313,7 @@ ul.global_list li:last-of-type {padding: 0;}
 #campaigns_page-header h1 {display: none;}
 #campaigns_page-header {margin:95px 0 0 0;}
 
-#campaigns_page-intro {padding: 4px 22px 16px 22px;}
+#campaigns_page-intro {padding:34px 22px 16px 22px;}
 #campaigns_page-intro h2 {padding: 0 0 32px 0;}
 #campaigns_page-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #356CFD;}
 #campaigns_page-intro p a {text-decoration: underline;  color: #356CFD;}
@@ -427,6 +430,9 @@ ul.global_list li:last-of-type {padding: 0;}
 #research_community {padding: 4px 22px 60px 22px;}
 #research_community p {color: #fff;}
 
+#research_community ul {margin:0 0 20px 0; padding:0 0 0 1em;}
+#research_community ul li {margin:0; padding:0;}
+
 #research_community .info_right_col p {width: 220px;}
 
 .infographic_research_community {max-width: 230px;margin: 31px 0 45px;}
@@ -518,7 +524,7 @@ ul.global_list li:last-of-type {padding: 0;}
 
 /* Media Queries */
 @media only screen and (min-width: 480px) {
-  
+.content_holder .volunteer_right h3 br {display:block;}
 }
 
 @media only screen and (min-width: 600px) {

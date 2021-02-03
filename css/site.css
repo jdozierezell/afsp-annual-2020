@@ -3,7 +3,7 @@ html {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:bord
 *, *:before, *:after {-webkit-box-sizing:inherit; -moz-box-sizing:inherit; box-sizing:inherit;}
 
 body, html {height:100%; width:100%; margin:0; -webkit-font-smoothing:antialiased; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale;}
-body {background:#030052; min-height:calc(100vh + 1px);}
+body {background:#030052; min-height:calc(100vh + 1px); font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400;}
 body, p, h1, h2, h3 {margin:0; padding:0;}
 sup {vertical-align:baseline; position:relative; top:-0.4em;}
 
@@ -44,7 +44,7 @@ body.menu_open #top_bar:before {
 #site_nav.nav_show {display:flex;}
 
 #mobile_nav {display:block; width:100%;}
-#mobile_nav-links {padding:120px 0 0 22px; color:#fff;}
+#mobile_nav-links {padding:120px 0 100px 22px; color:#fff;}
 #mobile_nav-top {padding:0 0 60px 0; color:#356CFD;}
 #mobile_nav-top p {margin:0 0 10px 0; padding:0; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:15px; line-height:18px; text-transform:uppercase;}
 #mobile_nav-top ul {margin:0; padding:0; list-style:none;}
@@ -129,7 +129,7 @@ body.menu_open #top_bar:before {
 #desktop_nav-columns {display:table; width:65%; height:100%; float:right;}
 #desktop_nav-columns .desktop_nav-row {display:table-row; color:#fff;}
 #desktop_nav-columns .desktop_nav-row1 {}
-#desktop_nav-columns .desktop_nav-row1 p {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:15px; line-height:15px; margin:0 0 10px 0;}
+#desktop_nav-columns .desktop_nav-row1 p {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:15px; line-height:15px; margin:0; padding:0 0 10px 0;}
 #desktop_nav-columns .desktop_nav-row1 ul {list-style:none; margin:0; padding:0;}
 #desktop_nav-columns .desktop_nav-row1 ul li {margin:0; padding:0; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:20px; line-height:22px;}
 #desktop_nav-columns .desktop_nav-row1 ul li a {color:#fff; text-decoration:none; display:block; padding:0 0 10px 0;}

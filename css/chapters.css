@@ -1,0 +1,88 @@
+#chapters_page-header {margin: 25px 0 80px 0;}
+#chapters_page-intro {padding: 32px 22px 16px 22px;}
+.chapters_section {padding:15px 22px 30px 22px;}
+.chapters_section-header {padding:0 22px 0 22px;}
+#chapters_page-intro h2 {padding: 0 0 5px 0;}
+#chapters_page-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400;
+font-size: 20px;
+line-height: 29px;
+text-align: left;
+color: #E12A91;
+}
+
+
+#chapters_year {padding: 20px 0 0 0;}
+#chapters_year h2 br {display: none;}
+#chapters_year p {color: #fff;}
+#chapters_year p strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400; color:#fff; font-size:15px;}
+#chapters_year p {padding: 9px 0 0 0;line-height: 23px;}
+#chapters_year p:first-child {padding: 0 0 36px 0;max-width: 500px;line-height: 23px;}
+.chapters_photo-large {max-width: 507px;}
+.chapters_photo-large img {width:100%; height:auto;}
+
+.chapters_photo-column {padding: 23px 0 0 0;}
+.chapters_photo {padding:0 0 30px 0;}
+.chapters_photo img {width:100%; height:auto;}
+
+
+.chapters_grid-holder {}
+.chapters_grid-column {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; color:#fff; font-size:15px;}
+.chapters_grid-column ul {list-style:none; margin:0; padding:0;}
+.chapters_grid-column ul li {margin:0 0 28px 0; padding:0 10px 0 0; line-height:21px;}
+.chapters_grid-column ul li strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+
+.section_title {padding-top: 10px !important;}
+
+#pro_bono .chapters_section {padding:4px 22px 50px 22px;}
+#loss .chapters_section {padding:4px 22px 140px 22px;}
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+  
+}
+
+@media only screen and (min-width: 600px) {
+
+.chapters_photo-column {width:40%; float:left;}
+.chapters_photo {padding:0 30px 30px 0;max-width: 356px;}
+.chapters_photo img {width:100%; height:auto;}
+.chapters_photo p {}
+
+.chapters_grid-column {width:33%; float:left;}
+
+}
+
+@media only screen and (min-width: 720px) {
+
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+#chapters_year {padding: 55px 0 0 0;}
+#chapters_year h2 br {display: initial;}
+.chapters_section {padding:33px 0 30px 0;}
+.chapters_section-header {padding:0;}
+
+#pro_bono .chapters_section {padding:4px 0 50px 0;}
+#loss .chapters_section {padding:4px 0 140px 0;}
+
+.chapters_grid-column ul li {padding:0 30px 0 0;}
+#chapters_page-intro {padding: 69px 0 72px;}
+
+#leadership .chapters_section {padding:3px 0 50px 0;}
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+}
+
+@media only screen and (min-width: 1320px) {
+}
+
+@media only screen and (min-width: 1900px) {  
+ 
+}

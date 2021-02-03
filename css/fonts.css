@@ -1,0 +1,83 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3849931, 2019-12-19T10:45:03-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirNextLTPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-regular/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ * 
+ * Webfont: AvenirNextLTPro-BoldIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-bold-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ * 
+ * Webfont: AvenirNextLTPro-Demi by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-demi/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ * 
+ * Webfont: AvenirNextLTPro-It by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ * 
+ * Webfont: AvenirNextLTPro-DemiIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-demi-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ * 
+ * Webfont: AvenirNextLTPro-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-bold/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ * 
+ * Webfont: PaulGroteskSoft-Bold by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk-soft/bold/
+ * Copyright: Copyright &#x00A9; 2016 by Fargus Meiser +  Lukas Bischoff artill. All rights reserved.
+ * 
+ * Webfont: PaulGroteskSoft-Medium by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk-soft/medium/
+ * Copyright: Copyright &#x00A9; 2016 by Fargus Meiser +  Lukas Bischoff artill. All rights reserved.
+ * 
+ * Webfont: PaulGroteskSoft-Regular by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk-soft/regular/
+ * Copyright: Copyright &#x00A9; 2016 by Fargus Meiser +  Lukas Bischoff artill. All rights reserved.
+ * 
+ * 
+ * Licensed pageviews: 500,000
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3abecb");
+
+  
+@font-face {font-family: 'AvenirNextLTPro-Regular';src: url('webfonts/3ABECB_0_0.eot');src: url('webfonts/3ABECB_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_0_0.woff2') format('woff2'),url('webfonts/3ABECB_0_0.woff') format('woff'),url('webfonts/3ABECB_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-BoldIt';src: url('webfonts/3ABECB_1_0.eot');src: url('webfonts/3ABECB_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_1_0.woff2') format('woff2'),url('webfonts/3ABECB_1_0.woff') format('woff'),url('webfonts/3ABECB_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Demi';src: url('webfonts/3ABECB_2_0.eot');src: url('webfonts/3ABECB_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_2_0.woff2') format('woff2'),url('webfonts/3ABECB_2_0.woff') format('woff'),url('webfonts/3ABECB_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-It';src: url('webfonts/3ABECB_3_0.eot');src: url('webfonts/3ABECB_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_3_0.woff2') format('woff2'),url('webfonts/3ABECB_3_0.woff') format('woff'),url('webfonts/3ABECB_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-DemiIt';src: url('webfonts/3ABECB_4_0.eot');src: url('webfonts/3ABECB_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_4_0.woff2') format('woff2'),url('webfonts/3ABECB_4_0.woff') format('woff'),url('webfonts/3ABECB_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Bold';src: url('webfonts/3ABECB_5_0.eot');src: url('webfonts/3ABECB_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_5_0.woff2') format('woff2'),url('webfonts/3ABECB_5_0.woff') format('woff'),url('webfonts/3ABECB_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGroteskSoft-Bold';src: url('webfonts/3ABECB_6_0.eot');src: url('webfonts/3ABECB_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_6_0.woff2') format('woff2'),url('webfonts/3ABECB_6_0.woff') format('woff'),url('webfonts/3ABECB_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGroteskSoft-Medium';src: url('webfonts/3ABECB_7_0.eot');src: url('webfonts/3ABECB_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_7_0.woff2') format('woff2'),url('webfonts/3ABECB_7_0.woff') format('woff'),url('webfonts/3ABECB_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGroteskSoft-Regular';src: url('webfonts/3ABECB_8_0.eot');src: url('webfonts/3ABECB_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3ABECB_8_0.woff2') format('woff2'),url('webfonts/3ABECB_8_0.woff') format('woff'),url('webfonts/3ABECB_8_0.ttf') format('truetype');}
+

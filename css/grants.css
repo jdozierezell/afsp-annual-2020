@@ -1,0 +1,99 @@
+#grants_page-intro {padding: 32px 22px 16px 22px;}
+
+.content_holder .grants_greentext {color:#2AD891; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:20px; line-height:27px;}
+
+.grants_intro-list {list-style:none; margin:0; padding:0;}
+.grants_intro-list li {margin:0 0 6px 0; padding:0 0 0 40px; background-repeat:no-repeat; background-position:0 0; background-size:21px 21px; font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; font-size:15px; line-height:22px; color:#fff;}
+.grants_intro-list li strong {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+.grants_intro-list li.grants_n {background-image:url("../images/grants_n.png")}
+.grants_intro-list li.grants_p {background-image:url("../images/grants_p.png")} 
+.grants_intro-list li.grants_g {background-image:url("../images/grants_g.png")}
+.grants_intro-list li.grants_t {background-image:url("../images/grants_t.png")}
+.grants_intro-list li.grants_c {background-image:url("../images/grants_c.png")}
+
+.grants_section {padding:15px 22px 30px 22px;}
+.grants_section-header {padding:0 22px 0 22px;}
+
+.grants_row {padding:30px 0;}
+
+.grants_recipient {}
+
+.grants_recipient-photo {width:32%; float:left; max-width:148px;}
+.grants_recipient-photo img {width:100%; height:auto;}
+.grants_recipient-bio {width:68%; float:left; padding:0 0 0 10px; color:#fff;}
+.grants_recipient-bio h3 {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400; margin:0; padding:0; font-size:15px; line-height:22px; color:#fff;}
+.grants_recipient-bio p {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; margin:0 0 10px 0; padding:0; font-size:15px; line-height:22px; color:#fff;}
+
+.grants_info {color:#fff; padding:30px 0 0 0;}
+.grants_info h3 {font-family:AvenirNextLTPro-Bold, sans-serif; font-weight:400; margin:0; padding:0; font-size:15px; line-height:22px; color:#fff;}
+.grants_info ul {list-style:none; margin:0 0 20px 0; padding:0;}
+.grants_info ul li {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; margin:0; padding:0; font-size:15px; line-height:22px;}
+.grants_info p {font-family:AvenirNextLTPro-Regular, sans-serif; font-weight:400; margin:0 0 10px 0; padding:0; font-size:15px; line-height:22px; color:#fff;}
+
+.grants_divider {height:1px;}
+.grants_divider-left {float:left; width:30%; position:relative; text-align:right; height:1px;}
+.grants_divider-left:after {content:" "; display:block; border-top:1px #fff solid;}
+.grants_divider-right {float:left; width:70%; position:relative; text-align:left; height:1px;}
+.grants_divider-right:after {content:" "; display:block; border-top:1px #fff solid;}
+
+#wagner_photo {margin-top: 20px;}
+#wagner_text {margin-top: 20px;}
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+  
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 720px) {
+
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+#grants_page-intro {padding:32px 0 40px 0;}
+
+.grants_intro-list {margin:0 0 30px 0;}
+
+.padding-right30 {padding-right:30px;}
+
+.grants_section {padding:15px 0 30px 0;}
+.grants_section-header {padding:0 0 0 0;}
+
+
+.grants_recipient {width:30%; float:left; text-align:right; padding:0 30px 0 0;}
+
+.grants_recipient-photo {width:148px; float:right; margin:0 0 15px 0;}
+.grants_recipient-photo img {width:100%; height:auto;}
+.grants_recipient-bio {width:100%; float:none; padding:0; clear:both; text-align:right;}
+.grants_recipient-bio p {text-align:right;}
+
+.grants_info {width:40%; float:left; padding:0;}
+
+.grants_divider {}
+.grants_divider-left {}
+.grants_divider-left:after {max-width:178px; position:absolute; top:0; right:0; width:100%;}
+.grants_divider-right {}
+.grants_divider-right:after {max-width:682px;}
+
+#wagner_text {margin-top: 0px;}
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+}
+
+@media only screen and (min-width: 1320px) {
+}
+
+@media only screen and (min-width: 1900px) {  
+ 
+}

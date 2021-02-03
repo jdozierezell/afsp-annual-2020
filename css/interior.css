@@ -1,0 +1,874 @@
+#top_bar {height:74px; background:#030052;}
+
+#top_bar:after {
+content:" ";
+display:block;
+height:20px;
+width:100%;
+position:absolute;
+left:0;
+right:0;
+bottom:-20px;
+}
+
+#page.interior_blue #top_bar:after {
+background: #3928bd; /* Old browsers */
+background: -moz-linear-gradient(left,  #3928bd 0%, #396cfe 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #3928bd 0%,#396cfe 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #3928bd 0%,#396cfe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3928bd', endColorstr='#396cfe',GradientType=1 ); /* IE6-9 */
+}
+
+#page.interior_green #top_bar:after {
+background: #5bbf92; /* Old browsers */
+background: -moz-linear-gradient(left,  #5bbf92 0%, #5cd1c8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #5bbf92 0%,#5cd1c8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #5bbf92 0%,#5cd1c8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bbf92', endColorstr='#5cd1c8',GradientType=1 ); /* IE6-9 */
+}
+
+#page.interior_yellow #top_bar:after {
+background: #ffa534; /* Old browsers */
+background: -moz-linear-gradient(left,  #ffa534 0%, #ffcd09 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ffa534 0%,#ffcd09 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ffa534 0%,#ffcd09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa534', endColorstr='#ffcd09',GradientType=1 ); /* IE6-9 */
+}
+
+#page.interior_pink #top_bar:after {
+background: #c93f8c; /* Old browsers */
+background: -moz-linear-gradient(left,  #c93f8c 0%, #da7bb5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #c93f8c 0%,#da7bb5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #c93f8c 0%,#da7bb5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c93f8c', endColorstr='#da7bb5',GradientType=1 ); /* IE6-9 */
+}
+
+
+#content {position:relative; color:#fff;}
+
+#photo_scroller {  
+  display:flex;
+  width:100%;
+  position:relative;
+  left:0;
+  top:0;
+  height:254px;
+  overflow-y:hidden;
+  overflow-x:overlay;
+}
+#photo_scroller:after {
+  content:" ";
+  clear:both;
+  display:table;
+}
+
+
+#photo_scroller {
+
+}
+
+/*#page.interior_green #photo_scroller {
+  --thumbBG:#2AD891;
+}
+#page.interior_yellow #photo_scroller {
+  --thumbBG:#FFCE08;
+}
+#page.interior_pink #photo_scroller {
+  --thumbBG:#DA7BB5;
+}
+*/
+
+#photo_scroller::-webkit-scrollbar {
+  height: 10px;
+}
+#photo_scroller {
+
+}
+#photo_scroller::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+
+
+}
+#photo_scroller::-webkit-scrollbar-thumb {
+  /*background-color: rgba(250, 250, 250, 0.5) ;*/
+  
+    background-color:rgba(250, 250, 250, 0.5);
+    border: 3px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+
+}
+
+
+
+#photo_scroller-holder {display:flex; position:relative;}
+#photo_scroller-holder img {width:auto; height:250px; display:block; float:left;}
+
+.scroll_label {display:none;
+    position:absolute;
+    font-family:AvenirNextLTPro-Bold;
+    font-size:14px;
+    color:#356CFD;
+	  bottom:0;
+}
+
+#page.interior_green .scroll_label {color:#2AD891;}
+#page.interior_yellow .scroll_label {color:#FFCE08;}
+#page.interior_pink .scroll_label {color:#DA7BB5;}
+
+.scroll_label-rightarrow {
+    left:0;
+}
+.scroll_label-leftarrow {
+    right:0;
+}
+.scroll_label-desktop {display:none;}
+.scroll_label-mobile {display:none;}
+
+
+
+.content_section {} 
+.interior_page-header {}
+
+.content_divider hr {border:1px solid #356CFD; margin-left: 22px;margin-bottom: 10px;border-radius: 10px 0 0 10px;}
+
+#page.interior_green .content_divider hr {border-color:#2AD891;}
+#page.interior_yellow .content_divider hr {border-color:#FFCE08;}
+#page.interior_pink .content_divider hr {border-color:#E12A91;}
+
+.volunteer_row {background:#356CFD;margin: 0 0 0 22px;}
+#page.interior_green .volunteer_row {background:#2AD891;}
+#page.interior_yellow .volunteer_row {background:#FFCE08;}
+#page.interior_pink .volunteer_row {background:#e12a91;}
+
+.content_holder h1 {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; padding: 0 0 16px 11px; font-size: 20px; line-height: 30px; text-align: left; color: #356CFD; letter-spacing: 0.05em;}
+.content_holder h2 {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; padding: 4px 0 24px 0; font-size: 25px; line-height: 30px; text-align: left; color: #356CFD;}
+
+#page.interior_green h1 {color:#2AD891;}
+#page.interior_yellow h1 {color:#FFCE08;}
+#page.interior_pink h1 {color:#E12A91;}
+
+#page.interior_green h2 {color:#2AD891;}
+#page.interior_yellow h2 {color:#FFCE08;}
+#page.interior_pink h2 {color:#E12A91;}
+
+.content_holder p {font-family: AvenirNextLTPro-Regular, sans-serif; font-weight: normal; padding: 0 0 14px 0; font-size: 15px; line-height: 25px; text-align: left; color: #356CFD;}
+.content_holder p strong {font-family: AvenirNextLTPro-Bold, sans-serif; font-weight: 400;}
+.content_holder .volunteer_right {padding: 22px 0 10px 22px; vertical-align:middle;}
+.content_holder .volunteer_right h2 {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 20px; letter-spacing: 0.04em; line-height: 23px; text-align: left; color: #fff;}
+.content_holder .volunteer_right h2 span {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; display: block;}
+.content_holder .volunteer_right h3 {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 40px; line-height: 50px; text-align: left; color: #fff;}
+
+.volunteer_left {position:relative;}
+.volunteer_left a {display:block; max-width:450px; width:100%;}
+.volunteer_left a img {width:100%; height:auto;}
+.volunteer_right {}
+.volunteer_right a {color:#fff; text-decoration:none;}
+.volunteer_right a:hover {color:#fff; text-decoration:none;}
+
+#vicky {margin-bottom: 65px;}
+
+.img_responsive {width:100%; height:auto;}
+
+.img_desktop {display: none;}
+.img_mobile {display: block;}
+
+.footer_holder {background:#356CFD;padding: 28px 15px 90px;}
+#page.interior_green .footer_holder {background:#2AD891;}
+#page.interior_yellow .footer_holder {background:#FFCE08;}
+#page.interior_pink .footer_holder {background:#E12A91;}
+
+.nav_bottom-left {width:50%; float:left; padding:7px 0 0 25px; background:url("../images/arrow_left-blue.png") 0 0 no-repeat; background-size:14px auto; max-width:316px;}
+.nav_bottom-left a {color:#030052; text-decoration:none; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:20px; line-height:30px;}
+.nav_bottom-left a strong {display:block; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:15px; line-height:15px; margin:0 0 4px 0;}
+.nav_bottom-left a:hover {color:#030052; text-decoration:none;}
+
+.nav_bottom-right {width:50%; float:right; padding:7px 25px 0 0; background:url("../images/arrow_right-blue.png") right 0 no-repeat; background-size:14px auto; max-width:316px;text-align: right;}
+.nav_bottom-right a {color:#030052; text-decoration:none; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:20px; line-height:30px;/*! text-align: right; */}
+.nav_bottom-right a strong {display:block; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:15px; line-height:15px; margin:0 0 4px 0;}
+.nav_bottom-right a:hover {color:#030052; text-decoration:none;}
+
+.info_left_col {display: none;}
+.info_right_col {display: inline-block;margin: 14px 0 0 35px;}
+.info_right_col img {display:block;}
+.info_right_col p {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:25px; line-height:34px;}
+.info_right_col br {display: none;}
+
+ul.global_list {padding:0; font-size:15px; line-height:22px; margin-left:1em; font-family: AvenirNextLTPro-Regular, sans-serif;}
+ul.global_list li {padding:0 0 15px 0;}
+ul.global_list li:last-of-type {padding: 0;}
+
+/* Walks */
+
+#walks_page-header h1 {display: none;}
+#walks_page-header {margin:95px 0 0 0;}
+
+#walks_page-intro {padding: 32px 22px 16px 22px;}
+#walks_page-intro h2 br {display: block;}
+#walks_page-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #356CFD;}
+#walks_page-intro .info_right_col {display: inline-block;margin: 14px 0 0 35px;}
+#walks_page-intro p a {text-decoration: underline;  color: #356CFD;}
+
+#walks_page-intro .info_right_col p {color: #fff; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:25px; line-height:34px;}
+#walks_page-intro .info_right_col br {display: none;}
+
+#walks_community {padding: 0 22px 21px 22px;}
+#walks_community p {color: #fff;}
+
+.infographic_community {max-width: 210px;margin: 0 0 43px 0;}
+
+#walks_hope_walks {padding: 0 22px 16px 22px;}
+#walks_hope_walks p {color: #fff;}
+
+.infographic_hope_walks {max-width: 184px;margin: 0 0 43px 0;}
+
+#walks_virtual {padding: 70px 22px 16px 22px;}
+#walks_virtual p {color: #fff;}
+
+.out_of_darkness_logo {max-width: 158px;margin: 18px 0 21px 0;}
+.infographic_overnight {max-width: 204px;margin: 18px 0 21px 0;}
+
+#walks_callout {padding: 0 22px 4px 56px;}
+#walks_callout p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 20px; line-height: 27px; text-align: left; color: #356CFD;padding: 0 0 6px 0;}
+#walks_callout p:before {
+    content: '\201C';
+    position: absolute;
+    margin-left: -.5em;
+}
+#walks_callout p:after {
+    content: '\201C';
+    position: absolute;
+    margin-left: .2em;
+}
+#walks_callout #walks_callout_read {color: #356CFD; font-family: AvenirNextLTPro-Regular, sans-serif; font-size: 15px; line-height: 21px;}
+
+#walks_forever_young {padding: 30px 22px 16px 22px;}
+#walks_forever_young h4 {font-family: AvenirNextLTPro-Bold, sans-serif; font-size: 15px; line-height: 22px; text-align: left; color: #356CFD;}
+#walks_forever_young p {color: #fff;}
+#walks_forever_young p:last-of-type {padding-bottom: 27px;}
+#walks_forever_young img {max-width: 327px;width: 94%;}
+
+#walks_overnight_quote {padding: 6px 22px 40px 22px;}
+#walks_overnight_quote {color: #356CFD; font-family: AvenirNextLTPro-Regular, sans-serif; font-size: 15px; line-height: 21px;}
+#walks_overnight_quote p {line-height: 21.75px;}
+#walks_overnight_quote strong {font-family: AvenirNextLTPro-Bold, sans-serif; font-weight: 300;}
+
+/*Education */
+
+#education_page-header h1 {display: none;}
+#education_page-header {margin:95px 0 0 0;}
+
+#education_page-intro {padding: 4px 22px 16px 22px;}
+#education_page-intro h2 {padding: 0 0 32px 0;}
+#education_page-intro h2 br {display: block; }
+#education_page-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #356CFD;}
+#education_page-intro p strong {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400;}
+#education_page-intro .info_right_col {display: inline-block;margin: 0 0 0 35px;}
+#education_page-intro p a {text-decoration: underline;  color: #356CFD;}
+
+#education_page-intro .info_right_col p {color: #fff; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:20px; line-height:25px;padding: 0 0 51px 0;}
+#education_page-intro .info_right_col br {display: none;}
+#education_page-intro .info_right_col p span {/*! display: block; */font-size: 25px;}
+#education_page-intro .info_right_col p:last-of-type {padding-bottom: 44px;}
+
+#education_talksaves {padding: 0 22px 21px 22px;}
+#education_talksaves p {color: #fff;}
+
+.infographic_programs {max-width: 242px;margin: 0 0 49px 0;}
+.infographic_participants {max-width: 222px;margin: 0 0 43px 0;}
+.infographic_presentations {max-width: 222px;margin: 0 0 43px 0;}
+.talk_saves_lives_logo {max-width: 148px;margin: 21px 0 23px 0;}
+.finding_hope_logo {max-width: 326px;margin: 14px 0 43px 0;}
+.more_than_sad_logo {max-width: 326px;margin: 23px 0 43px 0;display: block;}
+.infographic_edu_programs {max-width: 273px;margin: 0 0 43px 0;}
+
+
+#education_findinghope {padding: 0 22px 21px 22px;}
+#education_findinghope p {color: #fff;}
+#education_findinghope h2 br {display: none;}
+
+#education_morethansad {padding: 0 22px 21px 22px;}
+#education_morethansad p {color: #fff;}
+
+#education_modelschools {padding: 65px 22px 21px 22px;}
+#education_modelschools p {color: #fff;}
+#education_modelschools .info_left_col p {color: #356CFD; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:20px; line-height:30px;}
+#education_modelschools .info_left_col p a {color: #356CFD; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; text-decoration: none;}
+#education_modelschools .info_right_col p {color: #356CFD; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:20px; line-height:30px;width: 100%;}
+#education_modelschools .info_right_col p a {color: #356CFD; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; text-decoration: none;}
+#education_modelschools h2 br {display: none;}
+#education_modelschools .info_right_col {display: inline-block;margin: 14px 0 0 0;}
+
+#education_signs h2 br {display: none;}
+#education_signs {padding: 0 22px 21px 22px;}
+#education_signs p {color: #fff;}
+
+#sarah {background:#356CFD;margin: 16px 0 75px 22px;}
+
+/*Campaigns */
+
+#campaigns_page-header h1 {display: none;}
+#campaigns_page-header {margin:95px 0 0 0;}
+
+#campaigns_page-intro {padding: 4px 22px 16px 22px;}
+#campaigns_page-intro h2 {padding: 0 0 32px 0;}
+#campaigns_page-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #356CFD;}
+#campaigns_page-intro p a {text-decoration: underline;  color: #356CFD;}
+
+#campaigns_realconvo {padding: 0 22px 27px 22px;}
+#campaigns_realconvo p {color: #fff;}
+#campaigns_realconvo p strong {font-family: AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+
+#campaigns_awarenessweek {padding: 0 22px 2px 22px;}
+#campaigns_awarenessweek  p {color: #fff;}
+.national_prevention_week {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0;}
+.keep_going {width: 90%; max-width: 326px; display: block;}
+
+.infographic_six_k_followers {max-width: 231px;margin: 20px 0 43px 0;}
+.infographic_newfollowers {max-width: 223px;margin: 20px 0 43px 0;}
+
+.campaign_gallery {margin: 50px 0 0 0;}
+
+#campaigns_seize {padding: 0 22px 2px 22px;}
+#campaigns_seize  p {color: #fff;}
+
+.infographic_million {max-width: 232px;margin: 33px 0 46px 0;}
+.reachout {width: 100%; max-width: 504px;margin: 20px 0 30px; display: block;}
+.reachout_phone {width: 100%; max-width: 504px;margin: 0 0 43px 0; display: block;}
+
+#campaigns_offering {padding: 0 22px 51px 22px;}
+#campaigns_offering p {color: #fff;}
+#campaigns_offering .info_right_col p {margin-left: -35px;}
+
+#campaigns_offering .info_left_col p {color: #356CFD; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:20px; line-height:30px;}
+#campaigns_offering .info_left_col p a {color: #356CFD; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; text-decoration: none;}
+#campaigns_offering .info_right_col p {color: #356CFD; font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:20px; line-height:30px;width: 100%;}
+#campaigns_offering .info_right_col p a {color: #356CFD; font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; text-decoration: none;}
+#campaigns_offering h2 br {display: none;}
+
+.self-care {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0;}
+.mind {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0}
+.soul {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0}
+.body {width: 90%; max-width: 326px; display: block; margin: 0; }
+
+.infographic_blog {max-width: 232px;margin: 20px 0 30px 0;}
+
+#campaigns_experts {padding: 0 22px 2px 22px;}
+#campaigns_experts  p {color: #fff;}
+
+#campaigns_diversity {padding: 0 22px 75px 22px;}
+#campaigns_diversity  p {color: #fff;}
+#campaigns_diversity  p strong {font-family: AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+
+.mmhm {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0;}
+.no_podemos {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0}
+.todo_el_ano {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0}
+.challenges {width: 90%; max-width: 326px; display: block; margin: 0;}
+
+#campaigns_continuing {padding: 75px 22px 53px 22px;}
+#campaigns_continuing  p {color: #fff;}
+
+.campaigns_continue {width: 100%; max-width: 504px;margin: 20px 0 30px; display: block;}
+.infographic_camp_views {max-width: 232px;margin: 20px 0 30px 0;}
+
+/* Screening */
+
+#support_screening-header h1 {display: none;}
+#support_screening-header {margin:95px 0 0 0;}
+
+#support_screening-intro {padding: 32px 22px 16px 22px;}
+#support_screening-intro .screening_header {max-width:555px; padding:0; margin:0 -22px 47px -22px;}
+#support_screening-intro .screening_header img {width:100%; height:auto;}
+#support_screening-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #FFCE08;}
+#support_screening-intro .info_right_col {display: inline-block;margin: 14px 0 0 35px;}
+#support_screening-intro p a {text-decoration: underline;  color: #356CFD;}
+#support_advocating .info_right_col p {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:20px; line-height:30px;padding-bottom: 43px;}
+
+#support_advocating .info_right_col p span {font-size:25px; line-height:30px;}  
+#support_advocating .info_right_col br {display: initial;}
+#support_advocating {padding: 0 22px 2px 22px;}
+#support_advocating  p {color: #fff;}
+
+.infographic_professionals {max-width: 227px;margin: 31px 0 45px;}
+
+/* Healing */
+
+#support_healing-header h1 {display: none;}
+#support_healing-header {margin:95px 0 0 0;}
+
+#support_healing-intro {padding: 32px 22px 16px 22px;}
+#support_healing-intro .healing_header {max-width:555px; margin:0 -22px 47px -22px;}
+#support_healing-intro .healing_header img {width:100%; height:auto;}
+#support_healing-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #FFCE08;}
+#support_healing-intro p a {text-decoration: underline;  color: #356CFD;}
+
+#support_survivors_day {padding: 4px 22px 60px 22px;}
+#support_survivors_day  p {color: #fff;}
+
+#support_conversations {padding: 55px 22px 0px 22px;}
+#support_conversations  p {color: #fff;}
+
+#support_training {padding: 4px 22px 53px 22px;}
+#support_training   p {color: #fff;}
+
+.infographic_support_events {max-width: 227px;margin: 31px 0 45px;}
+.infographic_requests {max-width: 227px;margin: 31px 0 45px;}
+
+/* Research */
+
+#research_page-header h1 {display: none;}
+#research_page-header {margin:95px 0 0 0;}
+  
+#research_page-intro {padding: 4px 22px 16px 22px;}
+#research_page-intro h2 {padding: 0 0 32px 0;}
+#research_page-intro h2 br {display: block; }
+#research_page-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #2AD891;}
+
+#research_community {padding: 4px 22px 60px 22px;}
+#research_community p {color: #fff;}
+
+#research_community .info_right_col p {width: 220px;}
+
+.infographic_research_community {max-width: 230px;margin: 31px 0 45px;}
+
+#research_together {padding: 65px 22px 21px 22px;}
+#research_together p {color: #fff;}
+#research_together h2 br {display: none;}
+
+/* Advocacy */
+
+#advocacy_page-header h1 {display: none;}
+#advocacy_page-header {margin:95px 0 0 0;}
+  
+#advocacy_page-intro {padding: 4px 22px 16px 22px;}
+#advocacy_page-intro h2 {padding: 0 0 32px 0;}
+#advocacy_page-intro h2 br {display: block; }
+#advocacy_page-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #2AD891;}
+
+#advocacy_state {padding: 4px 22px 60px 22px;}
+#advocacy_state p {color: #fff;}
+#advocacy_state .info_right_col p {width: 220px;}
+
+
+#advocacy_forum {padding: 4px 22px 60px 22px;}
+#advocacy_forum p {color: #fff;}
+
+#advocacy_federal {padding: 4px 22px 60px 22px;}
+#advocacy_federal  p {color: #fff;}
+#advocacy_federal  p strong {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400;}
+#advocacy_federal .info_right_col p {width: 220px;}
+
+#advocacy_awards {padding: 4px 22px 60px 22px;}
+#advocacy_awards p {color: #fff;padding: 0 0 20px 0;}
+#advocacy_awards p strong {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400;}
+#advocacy_awards p span {display: block;  padding: 10px 0 12px 0;}
+#advocacy_awards p span strong {display: block;}
+#advocacy_awards .award_desc {font-size: 20px; line-height: 29px; color: #2AD891; padding-top: 25px;padding-bottom: 40px;}
+#advocacy_awards .award_desc:first-of-type {padding-top: 0px;}
+
+#advocacy_awards .award_desc strong {display: block; padding: 0 0 12px 0;}
+
+.infographic_advocacy_bills {max-width: 222px;margin: 31px 0 45px;}
+.infographic_advocacy_federal {max-width: 222px;margin: 31px 0 45px;}
+.infographic_advocacy_views {max-width: 273px;margin: 31px 0 45px;}
+
+#kenya  {margin: 0 0 70px 22px;}
+
+/* Project 2025 */
+
+#project2025_page-header h1 {display: none;}
+#project2025_page-header {margin:95px 0 0 0;}
+  
+#project2025_page-intro {padding: 4px 22px 16px 22px;}
+#project2025_page-intro h2 {padding: 0 0 32px 0;}
+#project2025_page-intro h2 br {display: block; }
+#project2025_page-intro p {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size: 18px; line-height: 25px; text-align: left; color: #2AD891;}
+
+#project2025_firearms {padding: 4px 22px 60px 22px;}
+#project2025_firearms p {color: #fff;}
+#project2025_firearms p strong {display: block; font-family: AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+
+.icon_project2025 {max-width: 148px;margin: 31px 0 45px;}
+.born_to_protect {width: 98%; max-width: 504px; margin: 28px 0 31px;}
+.icon_project2025_winner {width: 148px; margin: 0 0 20px 0;}
+
+
+#project2025_healthcare {padding: 4px 22px 60px 22px;}
+#project2025_healthcare p {color: #fff;}
+
+#project2025_emergency {padding: 4px 22px 60px 22px;}
+#project2025_emergency p {color: #fff;}
+
+#project2025_emergency .award_desc {font-family:PaulGroteskSoft-Regular, sans-serif; font-size: 20px; line-height: 29px; color: #2AD891; padding-top: 25px;padding-bottom: 40px;}
+#project2025_emergency .award_desc:first-of-type {padding-top: 0px;}
+#project2025_emergency .award_desc strong {display: block; padding: 0 0 12px 0;}
+
+#project2025_emergency .award_desc strong {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; display: block;  padding: 10px 0 12px 0;}
+
+#project2025_betz {padding: 4px 22px 60px 22px;}
+#project2025_betz p {color: #fff;}
+#project2025_betz strong {font-family: AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+
+
+#project2025_anderson {padding: 4px 22px 60px 22px;}
+#project2025_anderson p {color: #fff;}
+#project2025_anderson strong {font-family: AvenirNextLTPro-Bold, sans-serif; font-weight:400;}
+
+
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+  
+}
+
+@media only screen and (min-width: 600px) {
+  
+}
+
+@media only screen and (min-width: 720px) {
+
+}
+
+@media only screen and (min-width: 960px) {
+#walks_page-intro h2 br {display: none;}
+}
+
+@media only screen and (min-width: 1024px) {
+
+#top_bar {height:auto; background:transparent;}
+#top_bar:after {
+display:none;
+}
+
+#site_logo {left:40px;}
+
+.content_holder h1 {padding: 0 0 16px 0;}
+
+#photo_scroller {height:370px;}  
+  
+#photo_scroller-holder img {width:auto; height:370px; display:block; float:left;}
+
+#content {padding:0 0 0 164px;}
+#content:before {
+content:" ";
+display:block;
+height:100vh;
+width:20px;
+position:fixed;
+left:0;
+top:0;
+background-image: linear-gradient(#3928bd, #396cfe);
+}
+
+
+/* Green pages */
+#page.interior_green #content:before {
+background-image: linear-gradient(#5abe91, #5cd1c8);
+}
+
+/* Yellow pages */
+#page.interior_yellow #content:before {
+background-image: linear-gradient(#ffa534, #ffcd08);
+}
+
+/* Pink pages */
+#page.interior_pink #content:before {
+background-image: linear-gradient(#c93f8c, #da7bb5);
+}
+
+.scroll_label-desktop {display:none;}
+.scroll_label-mobile {display:none;}
+
+.content_holder {}
+.content_holder h2 {font-size: 30px; line-height: 37px;padding: 0 22px 11px 0;max-width: 670px;}
+.content_section {max-width:1600px; width:100%;}
+.content_section.content_section-full {max-width:100%;} 
+.interior_page-header {}
+
+.width-30 {width:30%;}
+.width-40 {width:40%;}
+.width-50 {width:50%;}
+.width-55 {width:55%;}
+.width-60 {width:60%;}
+
+.margin_left-20 {margin-left:20%;}
+.margin_left-30 {margin-left:30%;}
+
+.float-left {float:left;}
+.float-right {float:right;}
+
+.volunteer_row {margin:0;}
+.volunteer_row .content_section {display:table;}
+
+.volunteer_left {position:relative; display:table-cell; width:30%; overflow:hidden; height:200px;}
+.volunteer_left a {display:block; max-width:100%; width:100%; height:100%; position:absolute; top:0; bottom:0; left:0; right:0;}
+.volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight.jpg") center center no-repeat; background-size:cover;}
+.volunteer_left a img {display:none;}
+.volunteer_right {display:table-cell; width:70%;}
+ 
+.img_desktop {display: block;}
+.img_mobile {display: none;}
+  
+.content_divider hr { margin-left:0; margin-bottom: 34px;}
+ 
+  
+/* Walks */
+#walks_page-header {margin: 25px 0 80px 0;}
+#walks_page-header h1 {display: block;}
+#walks_page-intro {padding: 62px 0 16px 0;}
+#walks_page-intro p {font-size: 20px; line-height: 29px; }
+  
+#walks_callout p {font-size: 30px; line-height: 40px; padding: 0 0 14px 0;}
+#walks_callout {padding: 29px 22px 37px 56px;}
+#walks_forever_young h4 {margin: 0;}
+#walks_overnight_quote p {padding-right: 20px;}
+.out_of_darkness_logo {max-width: 222px;margin: 36px 0 29px 0;}
+.infographic_overnight {max-width: 252px;margin: 18px 0 21px 0;}
+.logo_mobile {display: none;}
+
+#walks_forever_young {padding: 30px 0 16px 0;}
+
+/* Education */
+#education_page-header {margin: 25px 0 80px 0;}
+#education_page-header h1 {display: block;}
+#education_page-intro {padding: 57px 0 16px 0;}
+#education_page-intro p {font-size: 20px; line-height: 29px; }
+#education_page-intro .info_right_col p span {/*! display: block; */font-size: 30px;}
+#education_page-intro .info_right_col p:last-of-type {padding-bottom: 30px;}
+#education_talksaves {padding: 0 0 21px 0;}
+#education_findinghope {padding: 0 0 21px 0;}
+#education_morethansad {padding: 0 0 42px 0;}
+#education_modelschools {padding: 65px 0 29px 0;}
+#education_signs {padding: 0 0 21px 0;}
+ 
+.infographic_edu_programs {max-width: 273px;margin: 90px 0 43px 0;}
+.infographic_programs {max-width: 242px;margin: 217px 0 43px 0;}
+#heidi .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_heidi.jpg") center center no-repeat; background-size:cover;}
+#sarah .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_sarah.jpg") center center no-repeat; background-size:cover;}
+#sarah {margin: 33px 0 142px 0;}
+#sarah br {display: none;}
+#sarah .volunteer_right h3 {max-width: 541px;}
+#laura .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_laura.jpg") center center no-repeat; background-size:cover;}
+#vicky .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_vicky.jpg") center center no-repeat; background-size:cover;}
+#vicky .volunteer_right {padding: 22px 0 10px 22px; vertical-align:top;}
+
+#tiffany .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_tiffany.jpg") center center no-repeat; background-size:cover;}
+#tiffany .volunteer_right {padding: 22px 0 10px 22px; vertical-align:top;}
+
+#matt .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_matt.jpg") center center no-repeat; background-size:cover;}
+#bradley .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_bradley.jpg") center center no-repeat; background-size:cover;}
+#bradley .volunteer_right h3 {font-size: 35px; line-height: 40px; text-align: left; color: #fff;}
+#bradley  .volunteer_right {padding: 12px 0 10px 22px;}
+
+
+#kenya .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_kenya.jpg") center center no-repeat; background-size:cover;}
+#kenya .volunteer_right h3 {font-size: 35px; line-height: 40px; text-align: left; color: #fff;}
+#kenya  .volunteer_right {padding: 12px 0 10px 22px;}
+
+#tendra .volunteer_left a#walks_spotlight {background: url("../images/walks_spotlight_tendra.jpg") center center no-repeat; background-size:cover;}
+#tendra  .volunteer_right {padding: 12px 0 10px 22px;}
+
+
+/* Campaigns and Culture */
+#campaigns_page-header {margin: 25px 0 80px 0;}
+#campaigns_page-header h1 {display: block;}
+#campaigns_page-intro h2 {padding: 0 0 12px 0;}
+#campaigns_page-intro {padding: 60px 0 16px 0;}
+#campaigns_page-intro p {font-size: 20px; line-height: 29px; max-width: 670px;padding: 0 0 28px 0;}
+#campaigns_realconvo {padding: 0 0 27px 0;}
+#campaigns_awarenessweek {padding: 0 0 2px 0;}
+#campaigns_seize {padding: 0 0 2px 0;}
+#campaigns_offering {padding: 0 0 51px 0;}
+#campaigns_experts {padding: 0 0 2px 0;}
+#campaigns_diversity {padding: 0 0 75px 0;}
+#campaigns_continuing {padding: 75px 0 53px 0;}
+
+.reachout {width: 504px;margin: 12px 0 30px;}
+.reachout_phone {width: 504px;margin: 0 0 43px 0;}
+
+/* Screening */
+#support_screening-header {margin: 25px 0 73px 0;}
+#support_screening-header h1 {display: block;}
+#support_screening-intro {padding: 0 0 22px 0;}
+#support_screening-intro p {font-size: 20px; line-height: 29px; }
+#support_screening-intro .screening_header {margin: 0 0 96px 0;}
+#support_screening-intro .screening_header img {}
+
+#support_advocating {padding: 0 0 2px 0;}
+  
+#support_advocating .info_right_col p:first-of-type {width: 39%;}  
+#support_advocating .info_right_col p:last-of-type {width: 59%;}  
+
+
+/* Healing */
+#support_healing-header {margin: 25px 0 73px 0;}
+#support_healing-header h1 {display: block;}
+#support_healing-intro {padding: 0 0 34px 0;}
+#support_healing-intro p {font-size: 20px; line-height: 29px; }
+#support_healing-intro .healing_header {margin: 0 0 96px 0;}
+
+#support_survivors_day {
+    padding: 4px 0 60px 0;
+}
+#support_conversations {
+    padding: 55px 0 0px 0;
+}
+#support_training {
+    padding: 4px 0 53px 0;
+}
+  
+/* Research */
+
+#research_page-header {margin: 25px 0 80px 0;}
+#research_page-header h1 {display: block;}
+#research_page-intro {padding: 57px 0 42px 0;}
+#research_page-intro p {font-size: 20px; line-height: 29px; }  
+
+#research_community {padding: 4px 0 60px 0;}
+
+#research_together {padding: 65px 0 100px 0;}  
+
+/* Advocacy */
+
+#advocacy_page-header {margin: 25px 0 80px 0;}
+#advocacy_page-header h1 {display: block;}
+#advocacy_page-intro {padding: 57px 0 42px 0;}
+#advocacy_page-intro p {font-size: 20px; line-height: 29px; }  
+  
+#advocacy_state {padding: 4px 0px 60px 0px;}
+#advocacy_forum {padding: 4px 0px 60px 0px;}
+#advocacy_federal {padding: 4px 0px 60px 0px;}
+#advocacy_awards {padding: 4px 0px 60px 0px;}
+
+#kenya  {margin: 0 0 70px 0;}
+#tendra  {margin: 0 0 70px 0;}
+
+/* Project 2025 */
+
+#project2025_page-header {margin: 25px 0 80px 0;}
+#project2025_page-header h1 {display: block;}
+#project2025_page-intro {padding: 57px 0 42px 0;}
+#project2025_page-intro p {font-size: 20px; line-height: 29px; }  
+
+
+#project2025_firearms {padding: 4px 0px 60px 0px;}
+.born_to_protect {width: 504px; max-width: none; margin: 28px 0 31px;}
+
+#project2025_healthcare {padding: 4px 0px 60px 0px;}
+#project2025_emergency {padding: 4px 0px 0px 0px;}
+
+#project2025_betz {padding: 4px 0px 20px 0px;}
+#project2025_anderson {padding: 4px 0px 60px 0px;}
+
+.award_winners .info_left_col {display: block; max-width: none; height: auto; float: right; padding: 0 30px 0 0;}
+.award_winners .info_left_col img {vertical-align: top;}
+.award_winners .info_right_col  {margin-top: 0;}
+}
+
+@media only screen and (min-width: 1080px) {
+  
+.content_holder .volunteer_right {padding: 31px 0 10px 22px;}
+.content_holder .volunteer_right h2 span {display: inline-block;}
+.content_holder .volunteer_right h3 {font-size: 50px; line-height: 60px; text-align: left; color: #fff;}
+
+.info_right_col {display:block;margin: 14px 0 0 0px;}
+.info_right_col p {display: inline-block; font-size:20px; line-height:27px; vertical-align: top; width: 32%;}
+.info_right_col img {display:none;}
+.info_right_col p:nth-child(-n+3) {margin-right: 40px;}
+.info_right_col br {display: initial;}
+.info_right_col p span {font-size:30px; line-height:30px;}
+  
+.info_left_col {display: block; max-width: 250px; height: auto;}
+.info_left_col p {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:20px; line-height:30px;}
+.info_left_col p span {font-size:30px;}
+.info_left_col br {display: none;}
+
+
+#education_page-intro .info_right_col p:nth-child(-n+3) {margin-right: 0px;}
+#education_page-intro .info_right_col {display:block;margin: 14px 0 0 0px;max-width: 640px;}
+#education_page-intro .info_right_col br {display: initial;}
+#education_page-intro .info_right_col p {display: inline-block; font-size:20px; line-height:27px; vertical-align: top;width: 32%;}
+
+.infographic_community {width: 90%;max-width: 252px;margin: 34px 0 43px 0;}
+#walks_community {padding: 0 0 71px 0;}
+  
+.infographic_hope_walks {max-width: 221px;margin: 54px 0 43px 0;}
+#walks_hope_walks {padding: 0 0 46px 0;}
+
+.infographic_overnight {max-width: 252px;margin: 54px 0 43px 0;}
+#walks_virtual {padding: 112px 0 16px 0;}
+#walks_virtual .info_right_col {display:none;}
+ 
+#education_page-intro h2 {padding: 0 0 12px 0;}
+#education_modelschools .info_left_col {display: block; max-width: 350px; height: auto;}
+#education_modelschools h2 br {display: initial;}
+#education_modelschools .info_right_col {display: none;}
+  
+#education_signs h2 br {display: initial;}
+#education_findinghope h2 br {display: initial;}
+  
+.infographic_participants {max-width: 222px;margin: 74px 0 66px 0;}
+
+#education_morethansad {padding: 0 0 42px 0;}
+ 
+#campaigns_realconvo .info_right_col {width: 600px;margin: 27px 0 0 0;}  
+.infographic_six_k_followers {max-width: 231px;margin: 140px 0 43px 0;}
+.infographic_newfollowers {max-width: 222px;margin: 224px 0 43px 0;}
+ 
+#campaigns_seize .info_right_col {width: 520px;margin: 24px 0 0 0;}  
+#campaigns_seize .info_right_col p {width: 32%;}  
+
+#campaigns_offering  .info_left_col {display: block; max-width: 350px; height: auto;}
+#campaigns_offering h2 br {display: initial;}
+#campaigns_offering .info_right_col {display: none;}
+  
+.infographic_blog {max-width: 294px;margin: 336px 0 30px 0;}
+
+.self-care {width: 90%; max-width: 326px; display: block; margin: 0 30px 30px 0;}
+.mind {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0; }
+.soul {width: 90%; max-width: 326px; display: block; margin: 0 30px 0 0; }
+.body {width: 90%; max-width: 326px; display: block; margin: 0 0 0 0; }
+
+.infographic_camp_views {max-width: 280px;margin: 118px 0 30px 0;}
+
+.mmhm {width: 90%; max-width: 326px; display: block; margin: 0 30px 30px 0;}
+.no_podemos {width: 90%; max-width: 326px; display: block; margin: 0 0 30px 0; }
+.todo_el_ano {width: 90%; max-width: 326px; display: block; margin: 0 30px 0 0; }
+.challenges {width: 90%; max-width: 326px; display: block; margin: 0 0 0 0; }
+.campaigns_continue {width: 504px; margin: 20px 0 30px; display: block;}
+
+.infographic_professionals {max-width: 270px;margin: 180px 0 30px 0;}
+
+.infographic_support_events {max-width: 276px;margin: 72px 0 45px;}
+
+.infographic_requests {max-width: 246px;margin: 31px 0 45px;}
+  
+.infographic_research_community {max-width: 230px;margin: 31px 0 45px;}
+  
+.infographic_advocacy_federal {max-width: 222px;margin: 384px 0 45px;}
+
+.infographic_advocacy_views {max-width: 273px;margin: 1468px 0 45px;}
+
+}
+
+@media only screen and (min-width: 1320px) {
+  
+.infographic_programs {max-width: 290px;margin: 0 0 43px 0;}
+  
+.info_right_col p:nth-child(-n+3) {margin-right: 0px; width: 33%;}
+.infographic_community {width: 100%;max-width: 252px;}
+
+.volunteer_left {height:200px;}
+  
+#walks_overnight_quote p {padding-right: 40px;} 
+
+.national_prevention_week {width: 90%; max-width: 326px; display: block; margin: 0 30px 30px 0;}
+.campaign_gallery {display: flex; flex-direction: row; flex-wrap: nowrap; align-items: flex-start; width: 682px;flex-flow: row wrap;}
+
+}
+
+@media only screen and (min-width: 1900px) {  
+
+.volunteer_left {height:300px;}
+ 
+}

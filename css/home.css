@@ -288,7 +288,7 @@ transition: top .5s ease;
 
 .section_viewport {}
 #holder-0 .section_viewport {height:100vh;}
-.arrow {display:block;}
+.arrow {display:block; z-index:19}
 
 
 }

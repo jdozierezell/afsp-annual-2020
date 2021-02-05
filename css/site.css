@@ -21,7 +21,7 @@ body.menu_open #page.test {
 
 /* Site Nav */
 
-#top_bar {position:fixed; top:0; left:0; right:0; width:100%; z-index:9;}
+#top_bar {position:fixed; top:0; left:0; right:0; width:100%; z-index:20;}
 body.menu_open #top_bar:before {
     content: " ";
     display: block;

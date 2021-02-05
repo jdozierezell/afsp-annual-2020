@@ -59,7 +59,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3928bd', end
 
 #volunteer_headline {padding:30px 30px 10px 60px; color:#fff;}
 #volunteer_headline h2 {font-family:PaulGroteskSoft-Regular, sans-serif; font-weight:400; font-size:60px; line-height:60px;}
-#volunteer_headline .small_headline {font-size: 70px; line-height: 75px;}
+#volunteer_headline .small_headline {font-size: 50px; line-height: 55px;}
 
 #volunteer_headline.letter_headline {color:#356CFD;}
 #volunteer_headline.letter_headline h2 {font-family:PaulGroteskSoft-Bold, sans-serif; font-weight:400; font-size:50px; line-height:60px;}
